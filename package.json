@@ -1,0 +1,34 @@
+
+{
+  "name": "drawboard",
+  "version": "0.3.0",
+  "description": "Online drawboard",
+  "author": "Kostiantyn Wandalen <wanalen@willbe.so>",
+  "license": "MIT",
+  "main": "staging/dwtools/amid",
+  "files": [
+    "staging/dwtools/amid",
+    "production"
+  ],
+  "scripts": {
+    "test": "wtest staging",
+    "make_doc": "./doc.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wandalen/drawboard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Wandalen/drawboard/issues"
+  },
+  "dependencies": {
+    "wTools": ""
+  },
+  "devDependencies": {
+    "wTesting": "",
+    "drawboard": "."
+  },
+  "keywords": [
+    "wTools"
+  ]
+}
